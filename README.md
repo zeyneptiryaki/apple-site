@@ -22,6 +22,10 @@ This project was created to practice layout design and CSS positioning.
 
 https://zeyneptiryaki.github.io/apple-site/
 
+## 📸 Preview
+
+![Project Screenshot](preview/screenshot.png)
+
 ## 📚 What I Learned
 
 - Structuring a front-end project
