@@ -1,0 +1,991 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    background-color: #FFFFFF ;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+
+}
+nav ul {
+    white-space: nowrap;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a {
+    font-size: 13px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333333;
+    text-decoration: none;
+    line-height: 50px;
+    margin: 0 20px;
+}
+nav ul li a i {
+font-size: 17px;
+ 
+}
+#section1 { 
+    background-image: url(picture/valentines-day.png); 
+    background-size: cover; 
+    background-position: center ; 
+    height: 650px;
+    width: 100%;
+    display: flex; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 12px; 
+    margin-bottom: 15px;
+    padding-top: 65px;
+
+}
+#section1 h2 {
+    font-size: 52px;
+    color: #1d1d1f;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+#section1 p {
+    font-size: 27px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #1d1d1f;
+}
+.btn1 {
+   background-color: rgb(0, 113, 227);
+   color: white;
+   width: 80px ;
+   font-size: 17px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 40px;
+   border: none;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 10px 20px;
+}
+
+#section2 {
+    background-image: url(picture/iphone.jpg);
+    background-size: 1800px; 
+    background-position: center 40% ;
+    height: 650px;
+    width: 100%;
+    flex-direction: column; 
+    text-align: center;
+    display: flex;           
+    align-items: center;
+    gap: 15px;
+     margin-bottom: 15px;
+     padding-top: 50px;
+
+
+}
+#section2 h2 {
+    font-size: 58px;
+    font-weight:600;
+    color: #1d1d1f;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+#section2 p {
+    font-size: 27px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #1d1d1f;
+}
+
+.btnGroup {
+    display: flex;
+    gap: 15px;
+}
+.btnleft2 {
+   background-color: rgb(0, 113, 227);
+   color: white;
+   width: 140px ;
+   font-size: 19px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 47px;
+   border: none;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 11px 15px;
+}
+.btnright2 {
+    background-color: white;
+    border: solid 1.5px rgb(0, 113, 227);
+   color: rgb(0, 113, 227);
+   width: 140px ;
+   font-size: 19px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 47px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 11px 15px;
+   white-space: nowrap;
+   
+}
+
+.btnright2:hover {
+    color: white;
+    background-color: rgb(0, 113, 227);
+}
+#section3 {
+background-image: url(picture/ipad.jpg);
+
+background-size: 1100px;
+background-position: center center; 
+height: 650px;
+width: 100%;
+position: relative;
+background-repeat: repeat-x; 
+margin-bottom: 15px
+
+}
+#section3 img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+}
+#section3 p {
+    font-size: 27px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #1d1d1f;
+    text-align: center;
+    padding-top: 130px;
+}
+.btnGroup3 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.btnleft3 {
+
+    background-color: rgb(0, 113, 227);
+    color: white;
+    width: 140px ;
+    top: 177px;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 45px;
+    border: none;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 11px 20px;
+    white-space: nowrap;
+}
+.btnright3 {
+    background-color: transparent;
+    border: solid 2px rgb(0, 113, 227);
+   color: rgb(0, 113, 227);
+   width: 80px ;
+    top: 177px;
+     font-size: 19px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 45px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 8px 25px;
+}
+.btnright3:hover {
+    color: white;
+    background-color: rgb(0, 113, 227);
+}
+
+
+#section4 {
+margin: 0 auto 20px auto; 
+width: 98%;
+display: flex; 
+justify-content: center; 
+gap: 15px;
+margin-bottom: 15px
+}
+.cardleft4 {
+position: relative;
+height: 580px;
+width: 100%;
+background-image: url(picture/apple-watch.jpg);
+background-position: center bottom;
+background-size: 1100px;
+background-repeat: no-repeat;
+
+}
+.cardleft4 img {
+    zoom: 0.9;
+    position: absolute;
+ top: 8%;   
+  left: 50%;  
+  transform: translateX(-50%)
+}
+.cardleft4 p {
+    font-size: 21px;
+    white-space: nowrap;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 117px;   
+  left: 50%;  
+  transform: translateX(-50%)       
+}
+.btnGroup4left {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 160px;
+
+}
+.btnleft4first{
+
+   background-color: rgb(0, 113, 227);
+   color: white;
+   width: 130px ;
+      font-size: 17px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 40px;
+   border: none;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 10px 20px;
+
+}
+.btnleft4second{
+    background-color: transparent;
+    border: solid 1px rgb(0, 113, 227);
+   color: rgb(0, 113, 227);
+   width: 80px ;
+ font-size: 17px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 40px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 10px 23px;
+    
+}
+.btnleft4second:hover {
+    color: white;
+    background-color: rgb(0, 113, 227);
+}
+.cardright4 {
+height: 580px;
+width: 100%;
+background-image: url(picture/watch-band.jpg);
+background-position: center;
+background-size: 900px;
+position: relative;
+background-repeat: no-repeat;
+
+}
+.cardright4 img {
+    zoom: 0.9;
+    position: absolute;
+ top: 8%;   
+  left: 50%;  
+  transform: translateX(-50%)
+}
+.cardright4 p {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+   text-align: center;
+   padding-top: 120px;
+}
+.btnright4{
+    zoom: 0.9;
+  position: absolute;
+    background-color: white;
+   color: black;
+   width: 80px ;
+   left: 47%;
+    top: 30%;
+    font-size: 17px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 40px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 10px 20px;
+
+}
+
+#section5 {
+margin: 0 auto;
+width: 98%;
+display: flex; 
+justify-content: center; 
+gap: 15px;
+margin-bottom: 15px
+}
+.cardleft5 {
+height: 580px;
+width: 100%;
+
+background-image: url(picture/macbook.jpg);
+background-position: center ;
+position: relative;
+background-repeat: no-repeat;
+background-size: 900px;
+
+}
+
+.cardleft5 h3 {
+ position: absolute;
+    top: 11%;   
+  left: 50%;  
+  transform: translateX(-50%);
+  color: white; 
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 39px;
+white-space: nowrap;      
+
+}
+.cardleft5 p {
+    position: absolute;
+    top: 20%;   
+  left: 50%;  
+  transform: translateX(-50%);       
+  color: white; 
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+font-size: 20px;
+  white-space: nowrap;
+
+}
+.btnGroup5left {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 160px;
+
+}
+.btnleft5first{
+
+   background-color: rgb(0, 113, 227);
+   color: white;
+   width: 130px ;
+    zoom: 0.9;
+      font-size: 17px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 40px;
+   border: none;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 10px 20px;
+
+}
+.btnleft5second{
+    background-color: transparent;
+    border: solid 1.5px rgb(0, 113, 227);
+   color: rgb(0, 113, 227);
+   width: 80px ;
+    zoom: 0.9;
+      font-size: 17px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 40px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 10px 25px;
+    
+}
+.btnleft5second:hover {
+    color: white;
+    background-color: rgb(0, 113, 227);
+}
+
+
+
+.cardright5 {
+height: 580px;
+width: 100%;
+
+background-image: url(picture/airpods.jpg);
+background-position: center bottom;
+background-size: 1000px;
+position: relative;
+background-repeat: no-repeat;
+
+}
+.btnGroup5right {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 165px;
+
+}
+.btnright5first{
+
+   background-color: rgb(0, 113, 227);
+   color: white;
+   width: 130px ;
+   left: 35%;
+    top: 30%;
+    zoom: 0.9;
+    font-size: 17px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 40px;
+   border: none;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 10px 20px;
+  
+}
+.btnright5second{
+    background-color: transparent;
+    border: solid 1.5px rgb(0, 113, 227);
+   color: rgb(0, 113, 227);
+   width: 65px ;
+   left: 55%;
+    top: 30%;
+    zoom: 0.9;
+    font-size: 17px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 40px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 9px 17px;
+    
+}
+.btnright5second:hover {
+    color: white;
+    background-color: rgb(0, 113, 227);
+}
+.cardright5 h3 {
+ position: absolute;
+    top: 8%;   
+  left: 50%;  
+  transform: translateX(-50%);
+  color: black; 
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 39px;
+  white-space: nowrap;      
+}
+.cardright5 p {
+    position: absolute;
+    top: 18%;   
+  left: 50%;  
+  transform: translateX(-50%);       
+  color: black; 
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+font-size: 20px;
+text-align: center;
+  white-space: nowrap;
+
+}
+
+#section6 {
+margin: auto;
+width: 98%;
+display: flex; 
+justify-content: center; 
+gap: 15px;
+}
+.cardleft6 {
+height: 580px;
+width: 100%;
+
+background-image: url(picture/iphone-tradein-promo.jpg);
+background-position: center 70%;
+background-size: 1100px;
+position: relative;
+background-repeat: no-repeat;
+
+}
+.cardleft6 img {
+    zoom: 0.7; 
+    position: absolute;
+ top: 10%;   
+  left: 50%;  
+  transform: translateX(-50%)
+}
+.cardleft6 p {
+    position: absolute;
+    top: 18%;   
+  left: 50%;  
+  transform: translateX(-50%);
+  font-size: 19px;
+    text-align: center; 
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+
+}
+.btnleft6 {
+    zoom: 0.9;
+    width: 170px;
+    white-space: nowrap; 
+     position: absolute;
+    top: 33%;   
+  left: 50%;  
+  transform: translateX(-50%);
+   background-color: rgb(0, 113, 227);
+   color: white;
+    font-size: 17px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 40px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 9px 17px;
+}
+
+.cardright6 {
+height: 580px;
+width: 100%;
+
+background-image: url(picture/card.jpg);
+background-position: center;
+background-size: 1050px;
+position: relative;
+background-repeat: no-repeat;
+
+}
+
+.cardright6 img {
+    zoom: 0.7; 
+    position: absolute;
+ top: 10%;   
+  left: 50%;  
+  transform: translateX(-50%)
+}
+.cardright6 p {
+    position: absolute;
+    top: 18%;   
+  left: 50%;  
+  transform: translateX(-50%);
+  font-size: 19px;
+    text-align: center; 
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+}
+
+.btnGroup6right {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 160px;
+
+}
+
+.btnright6first {
+    zoom: 0.9;
+    width: 130px;
+    white-space: nowrap; 
+     position: absolute;
+  background-color: rgb(0, 113, 227);
+   color: white;
+     font-size: 17px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 40px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 10px 21px;
+}
+
+.btnright6second {
+    zoom: 0.9;
+    width: 120px;
+    white-space: nowrap; 
+  background-color: transparent;
+    border: solid 1.5px rgb(0, 113, 227);
+    color: rgb(0, 113, 227);
+  font-size: 17px;
+   text-decoration: none;
+   border-radius: 30px;
+   height: 40px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 9px 21px;
+  
+}
+.btnright6second:hover {
+    color: white;
+    background-color: rgb(0, 113, 227);
+}
+
+#middlehedding {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(0,0,0);
+    text-align: center;
+    padding-top: 60px;
+}
+
+.slider{
+    zoom: 0.7;
+    position: relative;
+    width: 1376px;
+    height: 736px;
+    margin: auto;
+}
+.slider-content{
+    position: absolute;
+    width: 1200%; 
+    left: 0;
+    animation: slide 25s infinite;
+}
+.slider-item{
+ width: 8.33%; 
+float: left;
+box-sizing: border-box;
+padding: 0 10px;
+}
+.slider-item img {
+    width: 100%;
+    height: 100%;
+}
+@keyframes slide {
+    0%, 7% { transform: translateX(-1376px); } 
+
+    9%, 18% { transform: translateX(-2752px); } 
+    
+    20%, 28% { transform: translateX(-4128px); }
+    
+    30%, 38% { transform: translateX(-5504px); }
+    
+    40%, 48% { transform: translateX(-6880px); }
+    
+    50%, 58% { transform: translateX(-8256px); }
+    
+    60%, 68% { transform: translateX(-9632px); }
+    
+    70%, 78% { transform: translateX(-11008px); }
+    
+    80%, 89% { transform: translateX(-12384px); }
+
+    92%, 99.99% { transform: translateX(-13760px); }
+
+    100% { transform: translateX(-1376px); }
+}
+
+
+
+.text  {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.56);
+    text-align: left;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 16px;
+        
+}
+.text ul  {
+    list-style: none;
+
+}
+
+
+
+.container2{
+    background-color: rgb(245, 245, 247);
+}
+#list{
+    display: flex;
+    gap: 23px;
+    width: 65%;
+    margin: auto;
+    justify-content: space-between;
+}
+#list a{
+   text-decoration: none;
+    color: #000000b8;
+    font-size: 12px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#list a:hover {
+    text-decoration: underline;
+}
+#list h4 {
+    color: #000000e0;
+    font-size: 12px;
+        font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-top: 25px;
+        font-weight: 600;
+
+}
+#column1 div{
+     display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#column1 a{
+display: block;
+}
+
+#column2 div{
+     display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#column2 a{
+    display: block;
+}
+
+#column3 div{
+     display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#column3 a{
+display: block;
+}
+
+#column4 div{
+     display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#column4 a{
+display: block;
+}
+#column5 div{
+     display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#column5 a{
+display: block;
+}
+
+#endtext1 {
+    margin-top: 30px;
+}
+#endtext1 a {
+color: #0066CC;
+}
+#endtext1 p {
+    color: #000000b8;
+    font-size: 12px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+#endtext1 hr{
+    width: 65%;
+    margin: auto;
+}
+
+#endtext2 {
+    width: 65%;
+    margin: auto;
+display: flex;
+gap: 50px;
+margin-top: 20px;
+}
+
+#endtext2 a {
+   color: rgba(0, 0, 0, 0.72);
+font-size: 12px;
+font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+text-decoration: none;
+}
+#endtext2 a:hover{
+    text-decoration: underline; 
+}
+
+#endtext2second a::after {
+    content: "|";
+    margin-left: 5px;
+}
+.footer-links a:last-child::after,
+.footer-links a:nth-last-child(2)::after {
+  content: " ";
+}
+
+#endtext2 p {
+color: rgba(0, 0, 0, 0.56);
+font-size: 12px;
+font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#endtext2second {
+     display: flex;
+ gap: 5px;
+}
+
+#endtext2third{
+    margin-left: 0px;
+}
+#endtext2third{
+    margin-left: auto;
+}
+@media screen and (max-width: 900px) {
+    
+     nav ul li.yazi {
+        display: none;
+    }
+    .first {
+        float: left;
+    }
+    .second{
+        float: right;
+    }
+    .third{
+        float:right;
+    }
+}
+
+@media screen and (max-width: 780px) {
+   
+
+    #section1 {
+    background-size: 3000px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+     margin-bottom: 0px;
+
+    }
+    #section1 h2{
+    font-size: 32px;
+     max-width: 734px;
+    }
+    #section1 p{
+    max-width: 260px;
+    font-size: 19px;
+    }
+    .btn1{
+        zoom: 0.9;
+    }
+
+    #section2{
+        background-image: url(picture/iphone-responsive.jpg);
+        background-size: 780px; 
+    background-position: center 40% ; 
+    height: 580px;
+    width: 100%;
+    margin-top: 0px;
+
+
+    }
+    #section2 h2 {
+    font-size: 32px;
+     max-width: 734px;
+    }
+    #section2 p{
+    max-width: 260px;
+    font-size: 19px;
+    }
+    .btnright2 {
+        zoom: 0.9;
+    }
+     .btnleft2 {
+        zoom: 0.9;
+    }
+
+   #section3{
+    background-image: url(picture/ipad-responsive.jpg);
+    background-size: 780px; 
+    background-position: center 40% ; 
+    height: 600px;
+    width: 100%;
+    margin-bottom: 0px;
+   }
+   #section3 img {
+    zoom: 0.5;
+    top: 170px;
+   }
+   #section3 p{
+    font-size: 19px;
+   }
+   .btnleft3{
+    zoom: 0.8;
+   }
+   .btnright3{
+    zoom: 0.8;
+   }
+   #section4{
+    display: inline-block;
+    margin-top: 0px;
+   }
+   .cardleft4 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    height: 530px;
+    width: 685px;
+    background-size: 800px;
+    background-image: url(picture/watch-responsive.jpg);
+  }
+  .cardleft4 img {
+    margin-top: 0px;
+  }
+
+  .cardright4 {
+    margin-top: 15px;
+    height: 530px;
+    width: 685px;
+    background-size: 800px;
+  }
+   #section5{
+    flex-direction: column;
+   }
+   #section6{
+    flex-direction: column;
+   }
+
+  .text  {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+    }
+    #endtext1{
+        text-align: left;
+        margin-left: 0px;
+        width: 100%;
+    }
+    #endtext1 p {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: left;
+
+
+    }
+    #endtext1 hr{
+        display: none;
+    }
+    #endtext2 {
+        display: flex;
+        flex-direction: column;
+    }
+    #endtext2 p {
+    width: 100%;
+        
+        white-space: nowrap;
+        text-align: left;
+    }
+    #endtext2third{
+        text-align: left;
+
+    }
+}
+
+@media (max-width: 840px) {
+
+    #endtext1 p,
+    #endtext1 hr {
+        width: 100%;
+        margin: 0;
+        padding: 0 16px;
+        text-align: left;
+    }
+
+    #endtext2 {
+        width: 100%;
+        margin: 0;
+        padding: 0 16px;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    #endtext2third {
+        margin-left: 0;
+    }
+    #endtext1 hr {
+    display: none;
+}
+}
